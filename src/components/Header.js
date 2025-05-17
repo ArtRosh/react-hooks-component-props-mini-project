@@ -1,11 +1,11 @@
 import React from "react"
 
 
-function Header ({header}) {
-    console.log(header)
+function Header ({name}) {
+    
     return(
        <header>
-        <h1>{header}</h1>
+        <h1>{name}</h1>
       </header>
     )
 }

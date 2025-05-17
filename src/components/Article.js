@@ -1,16 +1,17 @@
 import React from "react"
 
 
-function Article({title, data, preview}) {
+function Article({title, date = "January 1, 1970", preview, minutes}) {
     return(
         <article>
              <h3>{title}</h3>
-             <small>{data}</small>
+             <small>{date}</small>
              <p>{preview}</p>
+             <p>{minutes}</p>
+
         </article>
     )
 }
 
 
 export default Article
-
