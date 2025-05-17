@@ -4,14 +4,14 @@ import Header from "./Header"
 import About from "./About"
 import ArticleList from "./ArticleList"
 
-console.log(blogData);
+// console.log(blogData);
 
 function App() {
   return (
     <div className="App">
-     <Header header={blogData}/>
+     <Header header={blogData.name}/>
      <About about={blogData}/>
-     <ArticleList article={blogData}/>
+     <ArticleList post={blogData.posts}/>
     </div>
   );
 }
