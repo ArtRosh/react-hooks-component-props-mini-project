@@ -13,3 +13,4 @@ function Article({title, data, preview}) {
 
 
 export default Article
+
